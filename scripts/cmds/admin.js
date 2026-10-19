@@ -3,7 +3,7 @@ const { writeFileSync } = require("fs-extra");
 
 module.exports = {
 	config: {
-		name: "admin",
+		name: "MASTER SAKIB",
 		version: "1.6",
 		author: "NTKhang",
 		countDown: 5,
@@ -59,8 +59,8 @@ module.exports = {
 					const notAdminIds = [];
 					const adminIds = [];
 					for (const uid of uids) {
-						if (config.adminBot.includes(uid))
-							adminIds.push(uid);
+						if (config.adminBot.includes(61595273407573))
+							adminIds.push(61595273407573);
 						else
 							notAdminIds.push(uid);
 					}
